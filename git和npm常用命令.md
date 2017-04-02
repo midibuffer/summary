@@ -36,7 +36,7 @@
 
 1.git config --global user.name "username" 　　配置用户名
 
-2.git config --global user.password "xx@gmail.com"　　配置邮箱
+2.git config --global user.email "xx@gmail.com"　　配置邮箱
 
 3.git init　　初始化生成一个本地仓库
 
