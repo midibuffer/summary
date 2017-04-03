@@ -36,11 +36,14 @@
 #ES6的实现如下：
 ES6新增了Set对象，也就是我们所说的“集合”，它类似于数组，但是成员的值都是唯一的，没有重复的值。所以可以方便去重。
 Set本身是一个构造函数，用来生成Set数据结构。
+
     Array.prototype.uniq = function() {
     　　return Array.from(new Set(this));
     }
+    
 代码中Array.from把Set结构换成数组，最最重要的是代码只需要一行就能实现
 如果要写的优雅一点的话，可以使用ES6的扩展运算符
+
     Array.prototype.uniq = function() {
     　　return [...new Set(this)];
     }
