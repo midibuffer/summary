@@ -8,7 +8,8 @@
 
 分析
 
-	题目要求给Array添加方法，所以我们需要用到prototype，数组去重本身算法不是很难，但是在Javascript中很多人会忽视NaN的存在，因为JS中NaN != NaN
+	题目要求给Array添加方法，所以我们需要用到prototype，数组去重本身算法不是很难，
+	但是在Javascript中很多人会忽视NaN的存在，因为JS中NaN != NaN
 
 在不考虑NaN的情况下我是使用indexOf判断是不是-1 或者是inCludes是不是false,再添加到数组中去。 
 
