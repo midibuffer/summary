@@ -28,7 +28,6 @@
 
 14.npm run xxx　　执行package.json的scripts中配置的命令
 
- 
 
  
 
